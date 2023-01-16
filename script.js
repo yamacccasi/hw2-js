@@ -3,7 +3,7 @@ let userName = prompt("Введіть ваше ім'я");
 while (userName === null || userName === "" || !isNaN(userName)) {
   userName = prompt ("Введіть ваше ім'я" , userName);
 }
-let userAge = +prompt("Введіть ваш вік",);
+let userAge = prompt("Введіть ваш вік",);
 
 while (userAge === null || userAge === "" || isNaN(userAge)) {
   userAge = prompt ("Введіть ваш вік" , userAge);
